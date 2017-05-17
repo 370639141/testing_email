@@ -3,6 +3,29 @@ index.html
 
 <head>
 	<style type="text/css">
+		@media screen and (max-width: 600px) {
+			.t1,.left,.right{
+				display: block !important;
+				width: 100% !important;
+				padding: 0 !important;
+				padding-top: 10px !important;
+
+
+
+			}
+
+
+		}
+		.navItem a{color:#3587A4;padding-top:5px; padding-left:20px; padding-bottom:5px; padding-right:20px; text-align:center; text-decoration: none; font-weight: bold; line-height: 200%;}
+		
+		.footerTextBlock{color:#3587A4; font-size:12px; line-height:170%; font-weight: 300; padding-bottom: 20px;}
+
+
+		#navContainer{padding-top:4px; padding-bottom:4px; color:#A7ADB1; font-size:11px; line-height:13px; border-top:1px solid #3587A4; border-bottom:1px solid #3587A4;}
+
+		.footerPadding{padding-top: 20px; padding-right:25px; padding-left:25px;}
+
+
 		.t1{
 			box-sizing: border-box;
 			background-color: #3587A4;
@@ -13,9 +36,18 @@ index.html
 			width: 100%;
 			max-width: 600px;
 		
-	
 
+		}
 
+		.t2{
+			box-sizing: border-box;
+			background-color: white;
+			overflow: auto;
+			padding: 40px 20px 0 20px;
+			position: relative;
+			top: 0;
+			width: 100%;
+			max-width: 600px;
 
 		}
 		.subhead{
@@ -38,12 +70,14 @@ index.html
 			font-family:arial black;
 		}
 		.right{
-			padding: 0 10px 0 25px;
+			padding: 0 10px 0 55px;
+
 			
 		}
 		.left{
-			padding: 0 30px 0 0;
+			
 			max-width: 300px;
+			
 			}
 		.box{
 			background-color: white;
@@ -65,17 +99,7 @@ index.html
 			padding: 5px 5px;
 
 		}
-		.t2{
-			box-sizing: border-box;
-			background-color: white;
-			overflow: auto;
-			padding: 40px 20px 0 20px;
-			position: relative;
-			top: 0;
-			width: 100%;
-			max-width: 600px;
-
-		}
+		
 
 		.p2{
 			padding: 10px 10px 10px 10px;
@@ -148,6 +172,31 @@ index.html
 
 			 }
 
+			 .t3middle{
+
+			padding: 5px 5px 0 10px;
+			color:white;
+			font-family:arial black;
+			font-size: 8px;
+			width:100%;
+			max-width: 200px;
+			
+		}
+
+		.t3right{
+
+			padding: 10px 10px 10px 10px;
+			color:#3587A4;
+			font-size: 10px;
+			font-family:arial black;
+			width:100%;
+			max-width: 110px;
+			border-style: solid;
+    		border-color: #3587A4;
+    		border-width: 1.5px;
+	
+		}
+
 		.grey{
 			font-size: 8px;
 			color: white;
@@ -160,6 +209,14 @@ index.html
 			font-size: 10px;
 			color:#3587A4;
 			
+		}
+
+	
+		.t4{
+			background-color: #c1bdbd;
+			width: 100%;
+			max-width: 600px;
+
 		}
 
 			</style>
@@ -179,40 +236,43 @@ index.html
 			<td class="left" >
 				<table width="100%" align="center">
 					<tr>
-						<td class="subhead">
+						<td class="subhead" align="center">
 							Welcome!
 						</td>
 						<tr>
-							<td class="p" >
+							<td class="p" align="center">
 								Your account has been created. MileIQ is
 								now ready and waiting to automatically
 								detect your first drive.
 							</td>
-							<tr>
-								<td class="list" >
-									<ul>
-										<li>Create your account</li>
-										<li>Take a drive</li>
-										<li>Categorize a drive</li>
-									</ul>
-								</td>
-							</tr>
-							<tr>
-								<td class="box">
-									More tips to get started
-								</td>
-							</tr>
+						<tr>
+							<td class="list" align="center">
+								<ul>
+									<li>Create your account</li>
+									<li>Take a drive</li>
+									<li>Categorize a drive</li>
+								</ul>
+							</td>
+						</tr>
+						<tr>
+							<td class="box" align="center">
+								More tips to get started
+							</td>
+						</tr>
+					</tr>
 
-						</table>
-					</td>
-
-					<td width="30%" class="right" align="right">	
-						<table>			
-
-							<img src="http://www.pngall.com/wp-content/uploads/2016/05/Iron-Man.png" width="180" height="232">
-						</table>
-					</td>
 				</table>
+			</td>
+
+
+			<td width="30%" class="right" align="center">	
+				<table>			
+
+					<img src="http://www.pngall.com/wp-content/uploads/2016/05/Iron-Man.png" width="180" height="232">
+				</table>
+			</td>
+		</tr>
+	</table>
 
 				<table class="t2" align="center" >
 					<tr>
@@ -315,11 +375,63 @@ index.html
 										</tr>
 									</table>
 								</td>
-								<td class="right">
+								<td >
+									<table class="t3middle" >
+										<td>
+											Your current plan is 40 free drives per month. Upgrade to get unlimited drives.
+
+										</td>
+									</table>
+								</td>
+
+								<td>
+									<table class="t3right" align="center">
+										<td>
+										LEARN MORE
+										</td>
+									</table>
 								</td>
 							</tr>
+							</table> 
+							<table class="t4" align="center">
 
-						</table> 
+							<tr>
+                      <td align="center" valign="top" id="navContainer">
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%" id="navBlock">
+                          <tr>
+                            <td align="center" valign="middle" class="navItem">
+                              <a href="https://www.mileiq.com/howitworks">How it Works</a>
+                              <a href="https://support.mileiq.com/hc/en-us">Support</a>
+                              <a href="https://www.mileiq.com/blog/">Blog</a>
+                              <a href="https://dashboard.mileiq.com/login/auth">Dashboard</a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <!-- END NAV BLOCK // -->
+
+                    <!-- // BEGIN FOOTER BLOCK -->
+                    <tr>
+                      <td align="center" valign="top" id="footerContainer" class="footerPadding">
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%" id="footerBlock">
+                          <tr>
+                            <td align="left" valign="top" class="footerTextBlock">
+                              You are receiving this email because you signed up for MileIQ. You can manage your notification preferences by going to Account > Notifications in the MileIQ app. And while we’d hate to see you go, you can also <a href="#">unsubscribe</a> from all MileIQ emails.<br><br>
+                              Our mailing address is MileIQ, 1355 Market Street, Third Floor, San Francisco, CA, 94103<br><br>
+                              Copyright 2016 Mobile Data Labs Inc., All rights reserved.
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    </table>
+
+
+					
+
+
+						
 
 </body>
 
